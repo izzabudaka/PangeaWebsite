@@ -16,13 +16,15 @@
 	<!-- GOOGLE FONTS -->
 
 	<!-- STYLESHEETS -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 	<link href="../css/style.css" rel="stylesheet">
 </head>
 <body id="top">
 		<!-- HEADER -->
 		<div class="header">
 			<div class="container">
-				<nav class="navbar navbar-default" role="navigation">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
 						<span class="sr-only">Toggle navigation</span>
@@ -30,10 +32,10 @@
 						 <span class="icon-bar"></span>
 						 <span class="icon-bar"></span>
 					  </button>
-					   <a class="navbar-brand" data-scroll href="#sec_1"><img src="assets/img/logo.png" alt="logo"/></a>
+					   <a class="navbar-brand" data-scroll href="#sec_1"><img src="../img/logo.png" alt="logo"/></a>
 					</div>
 					<div class="collapse navbar-collapse" id="example-navbar-collapse">
-					  <ul class="nav navbar-nav">
+					  <ul class="nav navbar-nav navbar-right">
 						<li><a data-scroll href="#lineup">LINE UP</a></li>
 						<li><a data-scroll href="#about">ABOUT</a></li>
 						<li><a data-scroll href="#news">NEWS</a></li>
@@ -50,19 +52,19 @@
 
 		<!--LINEUP-->
 		<video id="lineup"  autoplay="autoplay" loop >
-				<source src="video/Pangaea.mp4" type="video/mp4">
-				<source src="video/Pangaea.ogg" type="video/ogg">
+				<source src="../video/Pangaea.mp4" type="video/mp4">
+				<source src="../video/Pangaea.ogg" type="video/ogg">
 				Your browser does not support HTML5 
 			</video>
 
 		<!--/LINEUP-->
 
-		<!--PAC MAN DIVIDER--><hr><!--PAC MAN DIVIDER-->
+		<!--PAC MAN DIVIDER--><img src="../img/pacman-divider.gif" class="img-responsive divider"><!--PAC MAN DIVIDER-->
 
 		<!--ABOUT-->
 		<section class="container" id="about">
-			<div class="row">
-				<div class="col-md-8 align-center">
+			<div class="row align-center">
+				<div class="col-md-8 col-md-offset-2">
 					<h1>About Pangaea Level 10</h1>
 					<p>
 Pangaea Festival returns this September with a voyage of immortality, reverie and childlike escapism. From beneath the stars of the Milky Way to the earliest dawn of sunrise, we invite all you Lost Boys and Girls to join us on an adventure in the island of your imagination, in the Students’ Union atop the trees.
@@ -75,11 +77,145 @@ September’s festival rises from the ashes of June’s Disco Apocalypse, where 
 <br>
 Find us!
 						</p>
-				<img src="../img/facebook.png">		
+					<div class="row social">
+						
+				<div class="col-xs-4"><a href="#"><img class="img-responsive" id="facebook" src="../img/facebook.png" alt="Pangaea Official Facebook Page" ></a></div>
+				<div class="col-xs-4"><a href="#"><img class="img-responsive" id="twitter" src="../img/twitter.png" alt="Pangaea Official Twitter Feed"></a></div>
+				<div class="col-xs-4"><a href="#"><img class="img-responsive" id="soundcloud" src="../img/soundcloud.png" alt="Pangaea Official Soundcloud Channel"></a></div>
+						
+					</div>	
 				</div>
 			</div>
 		</section>
 
-		<!--/ABOUT-->		
+		<!-- /ABOUT-->	
+
+		<!-- PAC MAN DIVIDER --><img src="../img/pacman-divider.gif" class="img-responsive divider flip-divider"><!-- PAC MAN DIVIDER -->	
+		<!-- NEWS -->
+		<section class="container" id="news">
+			<div class="row">
+				<div class="col-lg-12 align-center">
+					<h1>NEWS</h1>
+					<div class="row news-posts">
+						<div class="col-md-4 news-article">
+							<div class="news-headline">
+								<p>WHAT YOU COULD WEAR AT PANGAEA...</p>
+								<span>Posted on 20 Nov. 2015</span>
+							</div>
+							<div class="news-excerpt">
+								<p>This is an excerpt of the blog post</p>
+								<a href="#">View the article</a>
+							</div>
+						</div>
+
+						<div class="col-md-4 news-article">
+							<div class="news-headline">
+								<p>WHAT YOU COULD WEAR AT PANGAEA...</p>
+								<span>Posted on 20 Nov. 2015</span>
+							</div>
+							<div class="news-excerpt">
+								<p>This is an excerpt of the blog post</p>
+								<a href="#">View the article</a>
+							</div>
+						</div>
+
+							<div class="col-md-4 news-article">
+							<div class="news-headline">
+								<p>WHAT YOU COULD WEAR AT PANGAEA...</p>
+								<span>Posted on 20 Nov. 2015</span>
+							</div>
+							<div class="news-excerpt">
+								<p>This is an excerpt of the blog post</p>
+								<a href="#">View the article</a>
+							</div>
+
+						</div> <!-- End news-post -->
+					</div> <!-- End row -->
+					<span>OLDER POSTS -></span> <!-- This needs to be a slider - maybe slickslider? -->
+				</div>
+
+			</div>
+
+		</section>
+		<!-- /NEWS-->
+
+		<!-- PAC MAN DIVIDER--><img src="../img/pacman-divider.gif" class="img-responsive divider"><!-- PAC MAN DIVIDER-->
+
+		<!-- ARTISTS-->
+		<section class="container" id="artists">
+			<div class="row align-center">
+				<div class="col-md-8 col-md-offset-2">
+					<h1>ARTISTS</h1>
+					<img class="artist-loading" src="../img/loadingexe.gif">
+					<span>Estimated time left: "COUNTDOWN HERE"</span>
+				</div>
+			</div>
+		</section>
+		<!-- /ARTISTS -->
+
+		<!--PAC MAN DIVIDER--><img src="../img/pacman-divider.gif" class="img-responsive divider flip-divider"><!--PAC MAN DIVIDER-->
+		
+		<!-- TICKETS -->
+		<section class="container" id="tickets">
+			<div class="row">
+				<div class="col-md-8 align-center">
+					<h1>TICKETS</h1>
+					<span class="coming-soon">COMING SOON</span>
+				</div>
+			</div>
+		</section>
+		<!-- /TICKETS -->
+
+		<!--PAC MAN DIVIDER--><img src="../img/pacman-divider.gif" class="img-responsive divider"><!--PAC MAN DIVIDER-->
+
+		<!-- MAP -->
+		<section class="container-fluid" id="map">
+			<div class="visible-lg">
+				<div class="row">
+					<div class="col-md-12 align-center">
+						<h1>INTERACTIVE MAP</h1>
+					</div>
+				</div>
+			</div>
+			<div class="container hidden-lg">
+				<div class="row">
+				  <div class="col-md-12">
+					<h1>Interactive Map</h1>
+					<p>Sorry, your resolution is not supported by the interactive map.</p>
+				  </div>
+				</div>
+			</div>
+		</section>
+		<!-- /MAP -->
+
+		<!--PAC MAN DIVIDER--><img src="../img/pacman-divider.gif" class="img-responsive divider flip-divider"><!--PAC MAN DIVIDER-->
+
+		<!-- SPONSORS -->
+		<section class="container" id="hosts">
+			<div class="row">
+				<div class="col-md-12 align-center"></div>
+				<h1>SPONSORS</h1>
+				<span class="coming-soon">COMING SOON</span>
+			</div>
+		</section>
+		<!-- /SPONSORS -->
+
+		<!--FOOTER-->	
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 align-center">
+						
+							<p>Remixed with <i class="fa fa-heart heart"></i> by <a href="https://uk.linkedin.com/in/izzabudaka" target="_blank">Izz Abudaka</a> & <a href="http://plopstock.ro/portfolio" target="_blank">Tamas Kolcsey</a>.<br />© 2015 Pangaea Festival. All Rights Reserved.
+							</p>
+					</div>					
+				</div>
+			</div>
+        </footer>
+		<!-- /FOOTER -->
+
+		<!-- SCRIPTS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
 </body>
 </html>
