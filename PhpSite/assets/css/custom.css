@@ -1,0 +1,33 @@
+.numbers-box {
+  padding-top: 50px;
+}
+
+.dead-tabs {
+	text-align: center;
+	background-color:transparent;
+	margin-top: -1px; 
+}
+
+.dead-tabs ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+	width:100%;
+}
+
+.venues {
+	color: #666666;
+	display: block;
+	font-size: 1.45em;
+	line-height: 2.5;
+	padding: 0 1.25em;
+	text-decoration: line-through;
+	white-space: nowrap;
+	font-family:'Oswald',sans-serif;
+	text-transform: uppercase;
+}
+
+.accordion .item .heading .e-title {
+	background: url("") !important;
+}

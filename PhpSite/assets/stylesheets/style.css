@@ -69,6 +69,7 @@ p {
 .sec-body-part {
 	text-align: center;
 	padding-bottom: 10px;
+	font-family: 'Raleway';
 }
 .align-center {
 	text-align: center;
@@ -79,7 +80,7 @@ canvas {
   padding: 0;
   margin: auto;
   display: block;
-  width: 800px;
+  width: 100%;
 }
 .coming-soon {
 	font-size: .7em;

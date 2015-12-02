@@ -49,6 +49,7 @@
           <li><a data-scroll href="#tickets">TICKETS</a></li>
           <li><a data-scroll href="#map">MAP</a></li>
           <li><a data-scroll href="#sponsors">SPONSORS</a></li>
+          <li><a data-scroll href="contact.php">CONTACT</a></li>
           </ul>
         </div>
       </nav>
@@ -127,16 +128,18 @@
         </div>
       </div>
       <img src="assets/images/pacman-divider.gif" alt="pacman-gif">
-      <div class="section" id="tickets">
+      <div class="tickets" id="tickets">
         <div class="section-title">
             TICKETS
-          </div>
-          <div class="section-body" id="center-button">
-            <div class="sec-body-part">
-              <button class="coming-soon">
-                COMING SOON
-              </button>
-            </div>
+        </div>
+        <div class="tickets-bg">
+          <img src="assets/images/tickets.png" alt="tickets">
+        </div>
+        <div class="section-body" id="center-button">
+          <div class="sec-body-part">
+            <button class="coming-soon">
+              COMING SOON
+            </button>
           </div>
         </div>
       </div>
@@ -144,68 +147,38 @@
       <div class="section" id="map">
         <div class="section-title">
             INTERACTIVE MAP
-          </div>
-          <div class="section-body" id="center-button">
-          <div class="container">
-          <!-- Example row of columns -->
-          <div class="row">
-            <div class="col-md-4">
-              <div class="ticket-image">
-                <img src="assets/images/ticket.png" alt="space invaders">
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="section-body" id="cntr-table-button">
-                <div class="sec-body-part">
-                  <button class="coming-soon">
-                    COMING SOON
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-            </div>
-          </div>
         </div>
+        <img class="side-ticket" src="assets/images/ticket.png" alt="side ticket">
+        <div class="section-body" id="center-button">
+          <div class="sec-body-part" id="sponsors">
+            <button class="coming-soon">
+              COMING SOON
+            </button>
           </div>
         </div>
       </div>
       <img src="assets/images/pacman-divider.gif" alt="pacman-gif">
-      <div class="section" id="sponsors">
+      <div class="section">
         <div class="section-title">
             SPONSORS
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-            </div>
-            <div class="col-md-4">
-              <div class="section-body" id="cntr-table-button">
-                <div class="sec-body-part">
-                  <button class="coming-soon">
-                    COMING SOON
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="invaders">
-                <img src="assets/images/invaders.png" alt="space invaders">
-              </div>
-            </div>
+        <img class="invaders" src="assets/images/invaders.png" alt="space invaders">
+        <div class="section-body">
+          <div class="sec-body-part" id="sponsors">
+            <button class="coming-soon">
+              COMING SOON
+            </button>
           </div>
         </div>
+      </div>
+      <footer>
+        <div class="footer">
+          <p>Created with
+          <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+           by <a href="https://uk.linkedin.com/in/izzabudaka" target="_blank">Izz Abudaka</a> & <a href="http://plopstock.ro/portfolio" target="_blank">Tamas Kolcsey</a><br/>
+           2016 Pangaea Festival<span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>. All Rights Reserved.
+          </p>
         </div>
-      </div>
-    </div>
-    <footer>
-      <div class="footer">
-        <p>Created with
-        <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
-         by <a href="https://uk.linkedin.com/in/izzabudaka" target="_blank">Izz Abudaka</a><br/>
-         2016 Pangaea Festival<span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>. All Rights Reserved.
-        </p>
-      </div>
-    </footer>
+      </footer>
   </body>
 </html>
